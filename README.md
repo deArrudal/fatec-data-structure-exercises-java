@@ -26,12 +26,17 @@ This repository presents some basic concepts of Data Structure, such as:
 ````
 PROJECTS - DATA STRUCTURE
 ├── Lecture 1 - Recursion
-│   ├── bin
-│   ├── src
-│   |   ├── controller
-│   |   |   ├── Methods.java
-│   |   ├── view
-│   |   |   ├── Main.java
+│   ├── #projectName#
+│   │   ├── bin
+│   │   ├── src
+│   |   │   ├── controller
+│   |   |   │   ├── Methods.java
+│   |   │   ├── view
+│   |   |   │   ├── Main.java
+├── Lecture 2 - Recursion
+│   ├── Set 1
+│   │   ├── #projectName#
+│   ├── Set 2
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -50,6 +55,8 @@ PROJECTS - DATA STRUCTURE
 
 * 0.1
     * Initial Release
+* 0.2
+    * Add Lecture 2
 
 ## License
 
