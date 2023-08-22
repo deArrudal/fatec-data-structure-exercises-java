@@ -37,6 +37,8 @@ PROJECTS - DATA STRUCTURE
 │   ├── Set 1
 │   │   ├── #projectName#
 │   ├── Set 2
+├── Lecture 3 - Sort Algorithm
+│   ├── #projectName#
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -54,9 +56,11 @@ PROJECTS - DATA STRUCTURE
 ## Version History
 
 * 0.1
-    * Initial Release
+    * Add project folder & Lecture 1
 * 0.2
     * Add Lecture 2
+* 0.3
+    * Add Lecture 3
 
 ## License
 
