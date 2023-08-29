@@ -8,24 +8,24 @@ public class Main {
     public static void main(String[] args) {
         BubbleSort bubbleSort = new BubbleSort();
         MergeSort mergeSort = new MergeSort();
-        
-        int[] array_ex1 = {74, 20, 74, 87, 81, 16, 25, 99, 44, 58};
 
-        System.out.printf("Exercise 1. Bubble Sort\n\tUnsorted: %s\n",
-            Arrays.toString(array_ex1));
+        int[] array_input1 = { 74, 20, 74, 87, 81, 16, 25, 99, 44, 58 };
+        System.out.printf("Exercise 1.Unsorted: %s\n", Arrays.toString(array_input1));
 
-        bubbleSort.classicSort(array_ex1);
-        
-        System.out.printf("\tSorted: %s\n", Arrays.toString(array_ex1));
+        int[] array_outputb = bubbleSort.sort(array_input1);
+        System.out.printf("\tBubble: %s\n", Arrays.toString(array_outputb));
 
-        int[] array_ex2 = {44, 43, 42, 41, 40, 39, 38};
+        int[] array_outputm = mergeSort.sort(array_input1);
+        System.out.printf("\tMerge: %s\n", Arrays.toString(array_outputb));
 
-        System.out.printf("Exercise 2. Merge Sort\n\tUnsorted: %s\n",
-            Arrays.toString(array_ex2));
+        int[] array_input2 = { 44, 43, 42, 41, 40, 39, 38 };
+        System.out.printf("Exercise 2.Unsorted: %s\n", Arrays.toString(array_input2));
 
-        mergeSort.classicSort(array_ex2);
+        array_outputb = bubbleSort.sort(array_input2);
+        System.out.printf("\tSorted: %s\n", Arrays.toString(array_outputb));
 
-        System.out.printf("\tSorted: %s", Arrays.toString(array_ex2));
+        array_outputm = mergeSort.sort(array_input2);
+        System.out.printf("\tSorted: %s\n", Arrays.toString(array_outputm));
 
     }
 }

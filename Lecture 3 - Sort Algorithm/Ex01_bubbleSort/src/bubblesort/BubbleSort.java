@@ -1,26 +1,32 @@
 package bubblesort;
 
-public class BubbleSort{
+public class BubbleSort {
     public BubbleSort() {
         super();
     }
 
-    public void classicSort(int[] array) {
+    public int[] sort(int[] array) {
+        return optimizedSort(array);
+    }
+
+    private int[] classicSort(int[] array) {
         int size = array.length;
         int tmp;
 
-        for(int i = 0; i < size; i++) {
-            for(int j = 0; j < size - 1; j++) {
-                if(array[j] > array[j + 1]) {
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size - 1; j++) {
+                if (array[j] > array[j + 1]) {
                     tmp = array[j + 1];
                     array[j + 1] = array[j];
                     array[j] = tmp;
                 }
             }
         }
+
+        return array;
     }
 
-    public void optimizedSort(int[] array) {
+    private int[] optimizedSort(int[] array) {
         boolean flag_end; // Flag end of sort procedure.
         int size = array.length;
         int tmp;
@@ -41,5 +47,7 @@ public class BubbleSort{
             size--; // Decrease loop's upper limit.
 
         } while (!flag_end);
+
+        return array;
     }
-} 
+}
