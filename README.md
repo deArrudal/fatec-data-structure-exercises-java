@@ -61,6 +61,8 @@ PROJECTS - DATA STRUCTURE
     * Add Lecture 2
 * 0.3
     * Add Lecture 3
+* 0.4
+    * Add Lecture 4 and modify sort algorithms to return array
 
 ## License
 
