@@ -67,6 +67,8 @@ PROJECTS - DATA STRUCTURE
     * Add Lecture 5 and correct folders
 * 0.6
     * Add Lecture 6 first set of exercises 
+* 0.7
+    * Add Lecture 6 second set of exercises
 
 ## License
 

@@ -12,7 +12,7 @@ public class Main {
 		int n;
 
 		do {
-			System.out.println("Enter value:");
+			System.out.print("Enter value: ");
 			n = scan.nextInt();
 
 			if (n < 1 || n > 10) {
