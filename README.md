@@ -71,6 +71,8 @@ PROJECTS - DATA STRUCTURE
     * Add Lecture 6 second set of exercises
 * 0.8
     * Add Lecture 7
+* 0.9
+    * Add Lecture 8
 
 ## License
 
