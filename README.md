@@ -2,7 +2,9 @@
 
 A repository containing all exercises developed during the Data Structure course.
 All the reference material can be found in ["Data Structure [Portuguese]"](https://www.leandrocolevati.com.br/materiais?disciplina=4716-003).
-Alternatively, a brief summary of the topics can be found in ["What is Data Structure [English]"](https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/) 
+Alternatively, a brief summary of the topics can be found in ["What is Data Structure [English]"](https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/)
+
+* **The libraries for some generic data structures can be found in the "Library" folder.**
 
 ## Description
 
@@ -39,6 +41,7 @@ PROJECTS - DATA STRUCTURE
 │   ├── Set 2
 ├── Lecture 3 - Sort Algorithm
 │   ├── #projectName#
+├── Library
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -73,6 +76,8 @@ PROJECTS - DATA STRUCTURE
     * Add Lecture 7
 * 0.9
     * Add Lecture 8
+* 0.10
+    * Add Lecture 9 and generic libraries
 
 ## License
 
