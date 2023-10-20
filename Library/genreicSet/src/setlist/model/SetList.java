@@ -1,9 +1,9 @@
-package linkedlist.model;
+package setlist.model;
 
-public class LinkedList<T> {
+public class SetList<T extends Comparable<T>> {
     Node<T> first;
 
-    public LinkedList() {
+    public SetList() {
         first = null;
     }
 
@@ -50,7 +50,29 @@ public class LinkedList<T> {
         return node;
     }
 
-    public void addFirst(T value) {
+    private int compareValues(T value1, T value2) {
+        return value1.compareTo(value2);
+    }
+
+    private boolean isNodePresent(T value) {
+        if (!isEmpty()) {
+            Node<T> node = first;
+            while (node != null) {
+                if (compareValues(node.data, value) == 0) {
+                    return true;
+                }
+                node = node.next;
+            }
+        }
+
+        return false;
+    }
+
+    public void addFirst(T value) throws Exception {
+        if (isNodePresent(value)) {
+            throw new Exception("Repeated element");
+        }
+
         Node<T> node = new Node<>();
         node.data = value;
         node.next = first;
@@ -61,6 +83,8 @@ public class LinkedList<T> {
         if (isEmpty()) {
             addFirst(value);
             return;
+        } else if (isNodePresent(value)) {
+            throw new Exception("Repeated element");
         }
 
         int size = size();
@@ -76,6 +100,8 @@ public class LinkedList<T> {
         int size = size();
         if ((index < 0) || (index > size)) {
             throw new Exception("Invalid index");
+        } else if (isNodePresent(value)) {
+            throw new Exception("Repeated element");
         }
 
         if (index == 0) {
@@ -83,6 +109,7 @@ public class LinkedList<T> {
         } else if (index == size) {
             addLast(value);
         } else {
+
             Node<T> node = new Node<>();
             Node<T> last = getNode(index - 1);
             node.data = value;

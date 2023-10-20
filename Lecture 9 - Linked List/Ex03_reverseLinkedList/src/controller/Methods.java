@@ -8,22 +8,6 @@ public class Methods<T> {
         super();
     }
 
-    public void printList(LinkedList<T> list) {
-        int size = list.size();
-        int i = 0;
-
-        try {
-            while (i < size - 1) {
-                System.out.print(list.get(i) + ", ");
-                i++;
-            }
-            System.out.print(list.get(size - 1) + "\n");
-
-        } catch (Exception errList) {
-            System.err.println(errList);
-        }
-    }
-
     public void reverseList(LinkedList<T> list) {
         Stack<T> stack = new Stack<>();
 

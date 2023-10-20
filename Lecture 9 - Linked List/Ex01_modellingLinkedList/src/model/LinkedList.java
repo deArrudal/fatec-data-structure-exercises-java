@@ -126,13 +126,13 @@ public class LinkedList<T> {
             throw new Exception("Invalid index");
         }
 
-        if (index == 1) {
+        if (index == 0) {
             removeFirst();
         } else if (index == size - 1) {
             removeLast();
         } else {
-            NodeList<T> last = getNode(size - 1);
-            NodeList<T> node = getNode(size);
+            NodeList<T> last = getNode(index - 1);
+            NodeList<T> node = getNode(index);
             last.next = node.next;
         }
     }

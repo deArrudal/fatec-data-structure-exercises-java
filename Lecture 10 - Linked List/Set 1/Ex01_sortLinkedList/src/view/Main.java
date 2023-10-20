@@ -1,16 +1,15 @@
 package view;
 
-import controller.Methods;
+import controller.SortList;
 import linkedlist.model.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        Methods<Integer> methods = new Methods<>();
+        SortList<Integer> sort = new SortList<>();
         LinkedList<Integer> list = new LinkedList<>();
-        int[] array = { 3, 5, 18, 12, 9, 7, 6, 2, 13, 4, 16 };
+        int[] array = { 10, 5, 8, 1, 9, 2, 4, 7, 3, 6 };
         int sizeArray = array.length;
 
-        // Add elements to the list.
         for (int i = 0; i < sizeArray; i++) {
             try {
                 list.add(array[i], i);
@@ -20,12 +19,11 @@ public class Main {
         }
 
         try {
-            list.printList(); // display original
-            methods.reverseList(list);
-            list.printList(); // display reverse
+            list.printList();
+            sort.bubbleSort(list);
+            list.printList();
         } catch (Exception errList) {
-            System.err.println(errList);
+            System.out.println(errList);
         }
-
     }
 }
