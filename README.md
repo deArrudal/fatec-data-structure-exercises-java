@@ -78,8 +78,11 @@ PROJECTS - DATA STRUCTURE
     * Add Lecture 8
 * 0.10
     * Add Lecture 9 and generic libraries
-* 0.1.1
+* 0.11
     * Add Lecture 10 part 1, major overhaul on generic libraries and add genericSet
+* 0.12
+    * Add Lecture 10 part 2, minor bugs correction.
+
 
 ## License
 
