@@ -59,31 +59,33 @@ PROJECTS - DATA STRUCTURE
 ## Version History
 
 * 0.1
-    * Add project folder & Lecture 1
+    * Add project folder & Lecture 1.
 * 0.2
-    * Add Lecture 2
+    * Add Lecture 2.
 * 0.3
-    * Add Lecture 3
+    * Add Lecture 3.
 * 0.4
-    * Add Lecture 4 and modify sort algorithms to return array
+    * Add Lecture 4 and modify sort algorithms to return array.
 * 0.5
-    * Add Lecture 5 and correct folders
+    * Add Lecture 5 and correct folders.
 * 0.6
-    * Add Lecture 6 first set of exercises 
+    * Add Lecture 6 first set of exercises. 
 * 0.7
-    * Add Lecture 6 second set of exercises
+    * Add Lecture 6 second set of exercises.
 * 0.8
-    * Add Lecture 7
+    * Add Lecture 7.
 * 0.9
-    * Add Lecture 8
+    * Add Lecture 8.
 * 0.10
-    * Add Lecture 9 and generic libraries
+    * Add Lecture 9 and generic libraries.
 * 0.11
-    * Add Lecture 10 part 1, major overhaul on generic libraries and add genericSet
+    * Add Lecture 10 part 1, major overhaul on generic libraries and add genericSet.
 * 0.12
     * Add Lecture 10 part 2, minor bugs correction.
 * 0.13
-    * Add Lecture 11
+    * Add Lecture 11.
+* 0.14
+    * Add Lecture 12.
 
 
 ## License
